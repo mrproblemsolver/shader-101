@@ -6,10 +6,6 @@ public class ThreeTonedMask {
         UnpackedColor mediumColor,
         UnpackedColor supColor
         ) {
-        float[] distanceA;
-        float[] distanceR;
-        float[] distanceG;
-        float[] distanceB;
         UnpackedColor ret = new UnpackedColor();
         ret.A = filterChannel(
             refColor.A,
